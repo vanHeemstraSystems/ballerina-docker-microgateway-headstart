@@ -65,7 +65,7 @@ service books on bookEP {
 ```
 HTTPService.bal
 
-We import the Ballerina utility libraries: docker, http and log.Using this code as a reference, let’s focus on the key parts of this service:
+We import the Ballerina utility libraries: docker, http and log. Using this code as a reference, let’s focus on the key parts of this service:
 
 - We configure our service to listen to the requests arriving at port 9091 within the context of the /bookService URL.
 
