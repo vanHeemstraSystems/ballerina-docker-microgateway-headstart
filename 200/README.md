@@ -4,7 +4,7 @@ The service project will have a very simple structure. It will be composed of th
 
 ```$ bal init```
 
-Our service will be called ***HTTPService.bal*** and will look as follows:
+Our service will be called ***HTTPService.bal*** and will look as follows (note: EP = EndPoint):
 
 ```
 import ballerina/http;
