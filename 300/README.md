@@ -12,4 +12,4 @@ In order to create the image we will need to execute the following command:
 
 And we can start our service thanks to Docker using the following command:
 
-```$ bal build HTTPService.bal```
+```$ docker run -d -p 9091:9091 com.chakray.example/example:v1.0```
