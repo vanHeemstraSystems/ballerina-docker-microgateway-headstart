@@ -21,7 +21,7 @@ The following step will be creating the ***API definition***. Microgateway is co
 ```
 openapi: 3.0.0
 info:
-versión: 1.0.0
+version: 1.0.0
 title: Book API
 license:
 name: Apache 2.0
