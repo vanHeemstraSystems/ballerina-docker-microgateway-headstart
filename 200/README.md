@@ -63,7 +63,7 @@ service books on bookEP {
   }
 }
 ```
-HTTPService.bal
+[root]/bookService/modules/HTTPService/HTTPService.bal
 
 We import the Ballerina utility libraries: docker, http and log. Using this code as a reference, let’s focus on the key parts of this service:
 
