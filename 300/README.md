@@ -12,5 +12,4 @@ In order to create the image we will need to execute the following command:
 
 And we can start our service thanks to Docker using the following command:
 
-```??? info missing ???```
-
+```$ bal build HTTPService.bal```
