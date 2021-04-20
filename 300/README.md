@@ -8,7 +8,7 @@ In order to create an image linked to our service that is handled by Docker we w
 
 In order to create the image we will need to execute the following command:
 
-```$bal build HTTPService.bal```
+```$ bal build HTTPService.bal```
 
 And we can start our service thanks to Docker using the following command:
 
