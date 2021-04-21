@@ -123,7 +123,9 @@ service books on bookEP {
     if (result is error) {
       log:printError("Error sending response", err = result);
     }
-  }@http:ResourceConfig {
+  }
+  
+  @http:ResourceConfig {
     methods: ["POST"], path: "/book"
   }
 
