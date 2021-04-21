@@ -92,7 +92,7 @@ Our service will be called ***HTTPService.bal*** and will look as follows (note:
 ```
 import ballerina/http;
 import ballerina/log;
-import ballerinax/docker;
+import ballerina/docker; ## not ballerinax/docker
 
 @docker:Expose {}
 listener http:Listener bookEP = new(9091);
