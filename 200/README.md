@@ -1,12 +1,18 @@
 # 200 - Developing the service with Ballerina and Microgateway
 
+We already have the project 'bookService' created, but if starting from fresh use the following command to create a new ballerina ***project*** (here: ```bookService```):
+
+```
+$ ballerina new bookService
+```
+
 ```
 [this repository]
   README.md
   bookService
     .git
-    .gitignore
-    Ballerina.toml
+    .gitignore (auto-created)
+    Ballerina.toml (auto-created)
     modules
       http
         HTTPService.bal
