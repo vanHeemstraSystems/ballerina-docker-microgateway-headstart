@@ -8,7 +8,7 @@
     .gitignore
     Ballerina.toml
     modules
-      HTTPService
+      http
         HTTPService.bal
 ```
 
