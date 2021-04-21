@@ -14,7 +14,12 @@ bookService
 $ bal build bookService
 Compiling source
   cloud_user/bookService:0.1.0
+  
+Generating executable
+  bookService/target/bin/bookService.jar
 ```
+
+***Note***: If not already in existence an new project sub-directory called ```target``` is created inside of which the executable is stored (```bin/bookService.jar```).
 
 And we can start our service thanks to Docker using the following command:
 
