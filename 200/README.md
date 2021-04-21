@@ -4,35 +4,88 @@ We already have the project 'bookService' created, but if starting from fresh us
 
 ```
 $ bal new bookService
+Created new Ballerina package 'bookService' at bookService.
 ```
-
-```
-[this repository]
-  README.md
-  bookService
-    .git
-    .gitignore (auto-created)
-    Ballerina.toml (auto-created)
-    modules
-      http
-        HTTPService.bal
-```
-
-To also create our first module 'http', if starting from fresh use the following Ballerina command for creating a new ***module*** (here: http):
 
 ```
 $ cd bookService
-$ bal module http
+$ ls -la
+.
+..
+Ballerina.toml
+.gitignore
+main.bal
 ```
 
-The service project will have a very simple structure. It will be composed of the root folder, bookService, and the module with our source code, http. 
+The directory structure is now as follows:
+
+```
+[this repository]
+  bookService (auto-created)
+    Ballerina.toml (auto-created)
+    .gitignore (auto-created)
+    main.bal (auto-created)
+```
 
 In order to ***initialize*** the project, we will have to execute the following command from the main folder.
 
 ```
 $ cd bookService
 $ bal init
+ballerina: Directory is already a ballerina project
 ```
+
+To also create our first module 'http', if starting from fresh use the following Ballerina command for creating a new ***module*** (here: ```http```):
+
+```
+$ cd bookService
+$ bal add http
+Added new ballerina module at 'modules/http'
+```
+
+```
+$ ls -la
+    Ballerina.toml (auto-created)
+    .gitignore (auto-created)
+    main.bal (auto-created)
+    modules
+      http
+```
+
+The directories now look as follows:
+
+```
+[this repository]
+  bookService (auto-created)
+    Ballerina.toml (auto-created)
+    .gitignore (auto-created)
+    main.bal (auto-created)
+    modules (auto-created)
+      http (auto-created)
+        http.bal (auto-created)
+```
+
+Rename http.bal to HTTPService.bal (optionally):
+
+```
+$ cd bookService/modules/modules/http
+$ mv http.bal HTTPService.bal
+```
+
+Finally, the directories now look as follows:
+
+```
+[this repository]
+  bookService (auto-created)
+    Ballerina.toml (auto-created)
+    .gitignore (auto-created)
+    main.bal (auto-created)
+    modules (auto-created)
+      http (auto-created)
+        HTTPService.bal (renamed from http.bal)
+```
+
+The service project will have a very simple structure. It will be composed of the root folder, bookService, and the module with our source code, http. 
 
 Our service will be called ***HTTPService.bal*** and will look as follows (note: EP = EndPoint):
 
