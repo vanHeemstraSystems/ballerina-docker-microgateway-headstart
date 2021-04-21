@@ -87,7 +87,9 @@ Finally, the directories now look as follows:
 
 The service project will have a very simple structure. It will be composed of the root folder, bookService, and the module with our source code, http. 
 
-***TIP***: See instructions on how to use Docker with Ballerina at https://ballerina.io/1.2/learn/deployment/docker/
+***TipP***: See instructions on how to use Docker with Ballerina at https://ballerina.io/1.2/learn/deployment/docker/
+
+***Tip***: See an overview of the Standard Library of Ballerina at https://github.com/ballerina-platform/ballerina-standard-library
 
 Our service will be called ***HTTPService.bal*** and will look as follows (note: EP = EndPoint):
 
