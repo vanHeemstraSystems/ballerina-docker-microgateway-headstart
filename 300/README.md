@@ -6,9 +6,15 @@ In order to create an image linked to our service that is handled by Docker we w
 
 - We have included the configuration of the image to be created.
 
-In order to create the image we will need to execute the following command:
+In order to create the image we will need to execute the following command from ***outside*** the project directory (here: ```bookService```):
 
-```$ bal build HTTPService.bal```
+```
+$ ls -la
+bookService
+$ bal build bookService
+Compiling source
+  cloud_user/bookService:0.1.0
+```
 
 And we can start our service thanks to Docker using the following command:
 
