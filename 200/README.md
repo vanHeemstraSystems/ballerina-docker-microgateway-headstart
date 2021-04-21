@@ -1,5 +1,17 @@
 # 200 - Developing the service with Ballerina and Microgateway
 
+```
+[this repository]
+  README.md
+  bookService
+    .git
+    .gitignore
+    Ballerina.toml
+    modules
+      HTTPService
+        HTTPService.bal
+```
+
 The service project will have a very simple structure. It will be composed of the root folder, bookService, and the module with our source code, http. In order to initialize the project, we will have to execute the following command from the main folder.
 
 ```$ bal init```
