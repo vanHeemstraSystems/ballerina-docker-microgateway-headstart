@@ -3,7 +3,7 @@
 We already have the project 'bookService' created, but if starting from fresh use the following command to create a new ballerina ***project*** (here: ```bookService```):
 
 ```
-$ ballerina new bookService
+$ bal new bookService
 ```
 
 ```
@@ -18,9 +18,21 @@ $ ballerina new bookService
         HTTPService.bal
 ```
 
-The service project will have a very simple structure. It will be composed of the root folder, bookService, and the module with our source code, http. In order to initialize the project, we will have to execute the following command from the main folder.
+To also create our first module 'http', if starting from fresh use the following Ballerina command for creating a new ***module*** (here: http):
 
-```$ bal init```
+```
+$ cd bookService
+$ bal module http
+```
+
+The service project will have a very simple structure. It will be composed of the root folder, bookService, and the module with our source code, http. 
+
+In order to ***initialize*** the project, we will have to execute the following command from the main folder.
+
+```
+$ cd bookService
+$ bal init
+```
 
 Our service will be called ***HTTPService.bal*** and will look as follows (note: EP = EndPoint):
 
