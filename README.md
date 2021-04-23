@@ -7,6 +7,11 @@ Note: https://ballerina.io/1.1/learn/how-to-structure-ballerina-code/
 
 ***WARNING***: Check if your code is (still) compliant with the Ballerina version (here: Swan Lake) you are using, here at https://ballerina.io/downloads/swan-lake-release-notes/
 
+**Pre-requisites**:
+
+- Have ***Docker*** installed,  see https://github.com/vanHeemstraSystems/docker-quick-start-headstart
+- Have ***Ballerina*** installed, see https://github.com/vanHeemstraSystems/ballerina-headstart
+
 ## 100 - How to deploy an API with Microgateway
 See [README.md](./100/README.md)
 
